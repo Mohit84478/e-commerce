@@ -33,7 +33,7 @@ const Home = () => {
       </section>
 
       {/* Product Categories */}
-      <main className="mt-12">
+      {/* <main className="mt-12">
         <h1 className="text-center text-3xl font-semibold mb-6">Product Categories</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           <div className="text-center">
@@ -47,17 +47,17 @@ const Home = () => {
             <a href="#" className="text-blue-500 hover:underline">See more &gt;&gt;</a>
           </div>
         </div>
-      </main>
+      </main> */}
 
       {/* Top Products Section */}
-      <section className="mt-12">
+      {/* <section className="mt-12">
         <h1 className="text-center text-3xl font-semibold mb-6">Top Products</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
           {products.slice(0, 6).map((product) => (
             <Productcard key={product.id} product={product} />
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
